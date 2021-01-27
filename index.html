@@ -167,5 +167,27 @@
     <footer class="w-full mt-20 mb-10 text-center">
       <span class="text-sm">Made with ❤️ in NY</span>
     </footer>
+
+    <script>
+      var today = new Date();
+      var weekdays = [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+      ];
+
+      console.log(`
+      Hi 👋. If you're curious how we built this site, we have good news! It's open source! Take a look at
+      the site on Github here: https://github.com/smeriwether/rochester_tutoring.
+
+      At a high level, it's a static site, with TailwindCSS, served via Nginx on a DigitalOcean droplet.
+
+      Enjoy the rest of your ${weekdays[today.getDay()]}.
+      `);
+    </script>
   </body>
 </html>
