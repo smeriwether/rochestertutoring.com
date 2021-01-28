@@ -13,8 +13,13 @@
     <link href="./public/images/logo.jpg" rel="apple-touch-icon">
     <link rel="icon" href="./public/images/favicon.ico" type="image/x-icon"/>
     <link rel="shortcut icon" href="./public/images/favicon.ico" type="image/x-icon"/>
-    <link href="./styles.css" rel="stylesheet">
-    <link href="./public/fonts.css" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet preload" as="style">
+    <link href="./public/fonts.css" rel="stylesheet preload" as="style">
+    <link rel="preload" href="./public/fonts/Merriweather/Merriweather-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./public/fonts/Merriweather/Merriweather-Italic.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./public/fonts/Merriweather/Merriweather-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./public/fonts/Merriweather/Merriweather-BoldItalic.woff2" as="font" type="font/woff2" crossorigin>
+    <script src="https://rook.rochestertutoring.com/script.js" data-site="QMUTKNWV" defer></script>
   </head>
   <body class="bg-gray-50 text-gray-900 px-5 font-opensans md:px-0">
     <main class="container max-w-screen-md mx-auto">
@@ -43,5 +48,11 @@
     <footer class="w-full mt-20 mb-10 text-center">
       <span class="text-sm">Made with ❤️ in NY</span>
     </footer>
+
+    <script>
+      window.onload = function() {
+        window.fathom.trackGoal('TBFP4ZVL', 0);
+      }
+    </script>
   </body>
 </html>
