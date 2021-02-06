@@ -34,4 +34,4 @@ free to ask if you want to reuse any content beyond the bounds of [fair use](htt
 
 
 
-[![CircleCI](https://circleci.com/gh/smeriwether/rochester_tutoring.svg?style=svg)](https://rochestertutoring.com)
+[![CircleCI](https://circleci.com/gh/smeriwether/rochestertutoring.com.svg?style=svg)](https://rochestertutoring.com)
